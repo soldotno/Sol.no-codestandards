@@ -1,29 +1,28 @@
- 
 {
-name: "svenanders/codestandards",
-type: "application",
-description: "My private code standards",
-license: "public domain",
-authors: [
-{
-name: "Sven Anders Robbestad",
-email: "robbestad@gmail.com"
-}
-],
-require: {
-php: ">=5"
-},
-autoload: {
-psr-0: {
-Symfony\CS: "."
-}
-},
-bin: [
-"codestandards"
-],
-extra: {
-branch-alias: {
-dev-master: "0.1.x-dev"
-}
-}
+    name: "svenanders/codestandards",
+    type: "application",
+    description: "My private code standards",
+    license: "public domain",
+    authors: [
+        {
+        name: "Sven Anders Robbestad",
+        email: "robbestad@gmail.com"
+        }
+    ],
+    require: {
+    php: ">=5"
+    },
+    autoload: {
+    psr-0: {
+    Symfony\CS: "."
+    }
+    },
+    bin: [
+        "codestandards"
+    ],
+    extra: {
+    branch-alias: {
+    dev-master: "0.1.x-dev"
+    }
+    }
 }
