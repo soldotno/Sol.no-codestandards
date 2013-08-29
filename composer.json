@@ -1,7 +1,7 @@
 {
-    "name": "svenanders/codestandards",
+    "name": "soldotno/Sol.no-codestandards"
     "type": "application",
-    "description": "My private code standards",
+    "description": "The code standards",
     "license": "public domain",
     "authors": [
         {
